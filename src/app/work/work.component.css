@@ -1,0 +1,41 @@
+/*.work-box {
+  cursor: pointer;
+}
+
+.work-img img {
+  width: 100%;
+  height: auto;
+}*/
+.work-box {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.work-box:hover {
+  transform: scale(1.05);
+}
+
+.work-img img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.work-content {
+  padding: 15px;
+}
+
+.w-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.w-more .w-category {
+  font-size: 0.9em;
+  color: #666;
+}

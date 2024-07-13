@@ -1,0 +1,79 @@
+<section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/img/overlay-bg.jpg)">
+  <div class="overlay-mf"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="contact-mf">
+          <div id="contact" class="box-shadow-full">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="title-box-2">
+                  <h5 class="title-left">
+                    {{ 'CONTACT.SEND_MESSAGE_US' | translate }}
+                  </h5>
+                </div>
+                <div>
+                  <form [formGroup]="contactForm" (ngSubmit)="onSubmit()" class="contactForm">
+                    <div id="sendmessage">Your message has been sent. Thank you!</div>
+                    <div id="errormessage"></div>
+                    <div class="row">
+                      <div class="col-md-12 mb-3">
+                        <div class="form-group">
+                          <input type="text" formControlName="name" class="form-control" id="name" placeholder="{{ 'CONTACT.YOUR_NAME' | translate }}" />
+
+                        </div>
+                      </div>
+                      <div class="col-md-12 mb-3">
+                        <div class="form-group">
+                          <input type="email" formControlName="email" class="form-control" id="email" placeholder="{{ 'CONTACT.YOUR_EMAIL' | translate }}" />
+                        </div>
+                      </div>
+                      <div class="col-md-12 mb-3">
+                        <div class="form-group">
+                          <input type="text" formControlName="subject" class="form-control" id="subject" placeholder="{{ 'CONTACT.SUBJECT' | translate }}" />
+                        </div>
+                      </div>
+                      <div class="col-md-12 mb-3">
+                        <div class="form-group">
+                          <textarea class="form-control" formControlName="message" rows="5" placeholder="{{ 'CONTACT.MESSAGE' | translate }}"></textarea>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <button type="submit" class="button button-a button-big button-rouded">{{ 'CONTACT.SEND_MESSAGE_BUTTON' | translate }}</button>
+                      </div>
+                    </div>
+                  </form>
+
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="title-box-2 pt-4 pt-md-0">
+                  <h5 class="title-left">
+                    {{ 'CONTACT.GET_IN_TOUCH' | translate }}
+                  </h5>
+                </div>
+                <div class="more-info">
+                  <p class="lead">
+                  </p>
+                  <ul class="list-ico">
+                    <li><span class="ion-ios-location"></span> ariana , tunis </li>
+                    <li><span class="ion-ios-telephone"></span> (216) 90475554</li>
+                    <li><span class="ion-email"></span> mekni.iheb@hotmail.com</li>
+                  </ul>
+                </div>
+                <div class="socials">
+                  <ul>
+                    <li><a href="https://www.facebook.com/mekni.iheb.9/" target="_blank"><span class="ico-circle"><i class="ion-social-facebook"></i></span></a></li>
+                    <li><a href="https://www.instagram.com/elmekni_iheb?igsh=Zjd5NWN2OXowd3Nz" target="_blank"><span class="ico-circle"><i class="ion-social-instagram"></i></span></a></li>
+                    <li><a href="https://github.com/mekniIheb" target="_blank"><span class="ico-circle"><i class="ion-social-github"></i></span></a></li>
+                    <li><a href="https://www.linkedin.com/in/mekni-iheb-1580621b0/" target="_blank"><span class="ico-circle"><i class="ion-social-linkedin"></i></span></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

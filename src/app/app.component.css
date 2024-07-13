@@ -1,0 +1,32 @@
+/* Basic styling for the select element */
+.navbar .form-select {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  margin-left: 1rem;
+  padding: 0.375rem 1.75rem 0.375rem 0.75rem;
+}
+
+/* Remove the default arrow */
+.navbar .form-select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" width="4" height="5" viewBox="0 0 4 5"><path fill="white" d="M2 0L0 2h4L2 0z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 0.65rem auto;
+}
+
+/* Style the dropdown items */
+.navbar .form-select option {
+  background-color: #343a40; /* Change this to match your navbar background color */
+  color: white;
+}
+
+/* Optional: Add focus styles */
+.navbar .form-select:focus {
+  outline: none;
+  box-shadow: none;
+}

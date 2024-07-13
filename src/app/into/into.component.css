@@ -1,0 +1,35 @@
+.btn-primary {
+  color: #fff;
+  background-color: #26282a;
+  border-color: #61676e;
+  border-radius: 16px;
+}
+/* Reset default styles */
+.intro-subtitle {
+  font-size: 2em;
+  display: inline-block;
+  letter-spacing: 0.1em;
+  border-right: solid 3px black;
+  width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: type 2s steps(27) 1s forwards infinite, blink 1s steps(1) infinite;
+}
+
+@keyframes type {
+  to {
+    width: 24ch;
+  }
+}
+
+@keyframes blink {
+  from {
+    border-color: transparent;
+  }
+  50% {
+    border-color: black;
+  }
+  to {
+    border-color: transparent;
+  }
+}

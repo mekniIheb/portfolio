@@ -1,0 +1,117 @@
+{
+  "NAVBAR": {
+    "TITLE": "IHEB PORTFOLIO",
+    "HOME": "Home",
+    "ABOUT": "About",
+    "SERVICES": "Services",
+    "WORK": "Work",
+    "BLOG": "Blog",
+    "CONTACT": "Contact"
+  },
+  "INTRO": {
+    "TITLE": "Iheb Mekni",
+    "SUBTITLE": "FULL STACK DEVELOPER",
+    "LEARN_MORE": "Learn More"
+  },
+  "ABOUT": {
+    "DOWNLOAD_RESUME": "Resume",
+    "TITLE": "About Me",
+    "NAME": "Name:",
+    "NAME_VALUE": "Iheb Mekni",
+    "PROFILE": "Profile:",
+    "PROFILE_VALUE": "Full Stack Developer",
+    "EMAIL": "Email:",
+    "EMAIL_VALUE": "mekni.iheb@hotmail.com",
+    "PHONE": "Phone:",
+    "PHONE_VALUE": "(216) 90475554",
+    "SKILLS_TITLE": "Skills",
+    "ABOUT_ME_TITLE": "About me",
+    "ABOUT_ME_CONTENT_1": "I am Iheb Mekni, a dedicated and skilled Full Stack Developer based in Tunis, Tunisia. I specialize in designing and developing robust microservices architectures, leveraging my expertise in both front-end and back-end technologies. I hold a Bachelor's Degree in Computer Systems Engineering from the Faculty of Sciences in Bizerte. Throughout my career, I've had the opportunity to work with leading technologies such as Java, Spring Boot, and Angular.",
+    "ABOUT_ME_CONTENT_2": "At Xtensus and IDNTT, I played key roles in migrating monolithic applications to scalable microservices, ensuring secure authentication with Keycloak, and maintaining detailed API documentation. My passion for software development drives me to continuously learn and innovate, striving to deliver high-quality, efficient, and scalable solutions. I take pride in my meticulous approach to problem-solving and my ability to adapt to new challenges."
+  },
+  "SERVICES": {
+    "TITLE": "Services",
+    "WEB_DESIGN": {
+      "TITLE": "Web Design",
+      "DESCRIPTION": "Crafting visually appealing and user-friendly designs that ensure an engaging user experience."
+    },
+    "WEB_DEVELOPMENT": {
+      "TITLE": "Web Development",
+      "DESCRIPTION": "Building robust and scalable web applications tailored to meet your business needs."
+    },
+    "RESPONSIVE_DESIGN": {
+      "TITLE": "Responsive Design",
+      "DESCRIPTION": "Ensuring your website looks great and functions seamlessly on all devices."
+    },
+    "COUNTERS": {
+      "WORKS_COMPLETED": {
+        "COUNT": "10",
+        "TEXT": "WORKS COMPLETED"
+      },
+      "YEARS_OF_EXPERIENCE": {
+        "COUNT": "2",
+        "TEXT": "YEARS OF EXPERIENCE"
+      },
+      "TOTAL_CLIENTS": {
+        "COUNT": "8",
+        "TEXT": "TOTAL CLIENTS"
+      },
+      "AWARDS_WON": {
+        "COUNT": "7",
+        "TEXT": "AWARDS WON"
+      }
+    }
+  },
+  "BLOG": {
+    "1": {
+      "CATEGORY": "Full Stack Java Development",
+      "CARD_TITLE": "Getting Started with Full Stack Java Development",
+      "DESCRIPTION": "A beginner's guide to full stack Java development. Learn about the technologies involved, the basic architecture, and how to set up your development environment.",
+      "DATE": "10 min"
+    },
+    "2": {
+      "CATEGORY": "Software Development",
+      "CARD_TITLE": "Agile Methodology: Enhancing Software Development",
+      "DESCRIPTION": "Learn about Agile methodology and how it improves software development processes. Benefits of Agile and how to implement it in your projects.",
+      "DATE": "10 min"
+    },
+    "3": {
+      "CATEGORY": "Full Stack Java Development",
+      "CARD_TITLE": "Building a RESTful API with Spring Boot",
+      "DESCRIPTION": "Step-by-step guide on how to create a RESTful API using Spring Boot. Learn about the core concepts, best practices, and how to deploy your API.",
+      "DATE": "10 min"
+    },
+    "4": {
+      "CATEGORY": "Artificial Intelligence",
+      "CARD_TITLE": "The Rise of AI: Transforming Industries",
+      "DESCRIPTION": "Explore how artificial intelligence is revolutionizing various sectors, from healthcare to finance.  Learn about the latest advancements and future trends in AI technology.",
+      "DATE": "10 min"
+    }
+  },
+  "WORK": {
+    "1": {
+      "DESCRIPTION": "This website for a medical clinic, developed in PHP, JavaScript, HTML, CSS, and Bootstrap, features two sessions: admin and patient. Administrators can manage users, appointments, consultations, and access a detailed dashboard. Patients can manage their profile, appointments, view medical history, and leave feedback. This intuitive and functional platform enhances clinic management and user experience for both patients and administrators."
+    },
+    "2": {
+      "DESCRIPTION": "The FlyCar project was developed using Angular for the front-end and Spring Boot for the back-end, with Spring Security ensuring data security and Java Mail for email management. The user interface is designed with Angular Material, offering a modern and responsive user experience. This comprehensive application enables management of users, vehicles, bookings, payments, and maps, while ensuring secure registration and login functionalities."
+    },
+    "3": {
+      "DESCRIPTION": "The STEG project is a request management platform with four sessions: Administrator, Client, DDI, and DPTE/Guichet. Clients can submit requests and check their status. The administrator assigns requests to appropriate departments (DDI, DPTE, or Guichet), manages associated documents, and prints requests. Developed with Spring, Spring Security, and JWT for authentication, and Angular for the user interface, this system ensures efficient and secure process management, enhancing user experience and internal productivity."
+    },
+    "4": {
+      "DESCRIPTION": "My portfolio project, developed with Angular 15, incorporates Bootstrap and PrimeNG frameworks to achieve a responsive and polished user interface. Utilizing Angular's robust capabilities, I've integrated ngx-translate for seamless multilingual support, ensuring a globally accessible experience. Additionally, I've implemented ngx-lightbox to enhance image presentation, providing an interactive showcase of my work. This project exemplifies my proficiency in leveraging modern web technologies to deliver intuitive and visually compelling web solutions."
+    }
+  },
+  "CONTACT": {
+    "SEND_MESSAGE_US": "Send Message Us",
+    "YOUR_NAME": "Your Name",
+    "YOUR_EMAIL": "Your Email",
+    "SUBJECT": "Subject",
+    "MESSAGE": "Message",
+    "SEND_MESSAGE_BUTTON": "Send Message",
+    "GET_IN_TOUCH": "Get in Touch",
+    "LOCATION": "Ariana, Tunis",
+    "PHONE": "(216) 90475554",
+    "EMAIL": "mekni.iheb@hotmail.com"
+  }
+}

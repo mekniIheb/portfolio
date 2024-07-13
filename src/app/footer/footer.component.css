@@ -1,0 +1,31 @@
+footer {
+  background-color: #1259a6; /* Dark background color */
+  color: #ffffff; /* Text color */
+  padding: 20px 0;
+}
+
+.container {
+  text-align: center;
+}
+
+.copyright-box {
+  font-size: 14px;
+}
+
+.copyright-box .copyright strong {
+  color: #f8f9fa; /* Color for the strong tag */
+}
+
+.credits {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.credits a {
+  color: #f8f9fa; /* Link color */
+  text-decoration: none;
+}
+
+.credits a:hover {
+  text-decoration: underline;
+}

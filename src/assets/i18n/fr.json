@@ -1,0 +1,117 @@
+{
+  "NAVBAR": {
+    "TITLE": "PORTEFEUILLE D'IHEB",
+    "HOME": "Accueil",
+    "ABOUT": "À propos",
+    "SERVICES": "Services",
+    "WORK": "Travail",
+    "BLOG": "Blog",
+    "CONTACT": "Contact"
+  },
+  "INTRO": {
+    "TITLE": "Iheb Mekni",
+    "SUBTITLE": "DÉVELOPPEUR FULL STACK",
+    "LEARN_MORE": "En savoir plus"
+  },
+  "ABOUT": {
+    "DOWNLOAD_RESUME": "Cv",
+    "TITLE": "À propos de moi",
+    "NAME": "Nom :",
+    "NAME_VALUE": "Iheb Mekni",
+    "PROFILE": "Profil :",
+    "PROFILE_VALUE": "Développeur Full Stack",
+    "EMAIL": "Email :",
+    "EMAIL_VALUE": "mekni.iheb@hotmail.com",
+    "PHONE": "Téléphone :",
+    "PHONE_VALUE": "(216) 90475554",
+    "SKILLS_TITLE": "Compétences",
+    "ABOUT_ME_TITLE": "À propos de moi",
+    "ABOUT_ME_CONTENT_1": "Je suis Iheb Mekni, un développeur Full Stack dédié et compétent basé à Tunis, Tunisie. Je me spécialise dans la conception et le développement d'architectures de microservices robustes, en exploitant mon expertise en technologies frontales et backend. Je suis titulaire d'une licence en Génie des Systèmes Informatiques de la Faculté des Sciences de Bizerte. Tout au long de ma carrière, j'ai eu l'opportunité de travailler avec des technologies de pointe telles que Java, Spring Boot et Angular.",
+    "ABOUT_ME_CONTENT_2": "Chez Xtensus et IDNTT, j'ai joué des rôles clés dans la migration d'applications monolithiques vers des microservices évolutifs, assurant une authentification sécurisée avec Keycloak et maintenant une documentation détaillée de l'API. Ma passion pour le développement de logiciels me pousse à apprendre et à innover continuellement, m'efforçant de fournir des solutions de haute qualité, efficaces et évolutives. Je suis fier de mon approche méticuleuse pour résoudre les problèmes et de ma capacité à m'adapter à de nouveaux défis."
+  },
+  "SERVICES": {
+    "TITLE": "Services",
+    "WEB_DESIGN": {
+      "TITLE": "Conception Web",
+      "DESCRIPTION": "Conception de designs attrayants et conviviaux garantissant une expérience utilisateur engageante."
+    },
+    "WEB_DEVELOPMENT": {
+      "TITLE": "Développement Web",
+      "DESCRIPTION": "Construction d'applications web robustes et évolutives adaptées à vos besoins commerciaux."
+    },
+    "RESPONSIVE_DESIGN": {
+      "TITLE": "Design Réactif",
+      "DESCRIPTION": "Assurer que votre site web soit esthétique et fonctionne parfaitement sur tous les appareils."
+    },
+    "COUNTERS": {
+      "WORKS_COMPLETED": {
+        "COUNT": "10",
+        "TEXT": "TRAVAUX RÉALISÉS"
+      },
+      "YEARS_OF_EXPERIENCE": {
+        "COUNT": "2",
+        "TEXT": "ANNÉES D'EXPÉRIENCE"
+      },
+      "TOTAL_CLIENTS": {
+        "COUNT": "8",
+        "TEXT": "CLIENTS AU TOTAL"
+      },
+      "AWARDS_WON": {
+        "COUNT": "7",
+        "TEXT": "PRIX GAGNÉS"
+      }
+    }
+  },
+  "BLOG": {
+    "1": {
+      "CATEGORY": "Développement Full Stack Java",
+      "CARD_TITLE": "Commencer avec le Développement Full Stack Java",
+      "DESCRIPTION": "Un guide pour débutants sur le développement full stack Java. Découvrez les technologies impliquées, l'architecture de base et comment configurer votre environnement de développement.",
+      "DATE": "10 min"
+    },
+    "2": {
+      "CATEGORY": "Développement de Logiciels",
+      "CARD_TITLE": "Méthodologie Agile : Améliorer le Développement de Logiciels",
+      "DESCRIPTION": "Apprenez la méthodologie Agile et comment elle améliore les processus de développement de logiciels. Les avantages de l'Agile et comment l'implémenter dans vos projets.",
+      "DATE": "10 min"
+    },
+    "3": {
+      "CATEGORY": "Développement Full Stack Java",
+      "CARD_TITLE": "Créer une API RESTful avec Spring Boot",
+      "DESCRIPTION": "Guide étape par étape sur la création d'une API RESTful en utilisant Spring Boot. Apprenez les concepts de base, les meilleures pratiques, et comment déployer votre API.",
+      "DATE": "10 min"
+    },
+    "4": {
+      "CATEGORY": "Intelligence Artificielle",
+      "CARD_TITLE": "La Montée de l'IA : Transformer les Industries",
+      "DESCRIPTION": "Explorez comment l'intelligence artificielle révolutionne divers secteurs, de la santé à la finance. Découvrez les dernières avancées et les tendances futures de la technologie IA.",
+      "DATE": "10 min"
+    }
+  },
+  "WORK": {
+    "1": {
+      "DESCRIPTION": "Ce site web pour un cabinet, développé en PHP, JavaScript, HTML, CSS et Bootstrap, propose deux sessions : admin et patient. Les administrateurs peuvent gérer les utilisateurs, les rendez-vous, les consultations, et accéder à un tableau de bord détaillé. Les patients peuvent gérer leur profil, leurs rendez-vous, consulter leur historique médical, et laisser des avis. Cette plateforme intuitive et fonctionnelle améliore la gestion du cabinet et l'expérience utilisateur pour les patients et les administrateurs."
+    },
+    "2": {
+      "DESCRIPTION": "Le projet FlyCar a été développé en utilisant Angular pour le front-end, et Spring Boot pour le back-end, avec Spring Security pour assurer la sécurité des données et Java Mail pour la gestion des courriels. L'interface utilisateur est conçue avec Angular Material, offrant une expérience utilisateur moderne et réactive. Cette application complète permet la gestion des utilisateurs, des véhicules, des réservations, des paiements et des cartes, tout en assurant des fonctionnalités sécurisées d'inscription et de connexion."
+    },
+    "3": {
+      "DESCRIPTION": "Le projet STEG est une plateforme de gestion des demandes comprenant quatre sessions : Administrateur, Client, DDI, et DPTE/Guichet. Les clients peuvent soumettre des demandes et vérifier leur statut. L'administrateur, quant à lui, attribue les demandes aux départements appropriés (DDI, DPTE, ou Guichet), gère les documents associés et imprime les demandes. Développé avec Spring, Spring Security, et JWT pour l'authentification, ainsi qu'avec Angular pour l'interface utilisateur, ce système assure une gestion efficace et sécurisée des processus, améliorant ainsi l'expérience utilisateur et la productivité interne."
+    },
+    "4": {
+      "DESCRIPTION": "Mon projet de portfolio, développé avec Angular 15, intègre les frameworks Bootstrap et PrimeNG pour obtenir une interface utilisateur responsive et soignée. En utilisant les capacités robustes d'Angular, j'ai intégré ngx-translate pour un support multilingue fluide, assurant une expérience accessible à l'échelle mondiale. De plus, j'ai mis en œuvre ngx-lightbox pour améliorer la présentation des images, offrant une vitrine interactive de mes travaux. Ce projet illustre ma maîtrise dans l'utilisation des technologies web modernes pour fournir des solutions web intuitives et visuellement attrayantes."
+    }
+  },
+  "CONTACT": {
+    "SEND_MESSAGE_US": "Envoyez-nous un message",
+    "YOUR_NAME": "Votre nom",
+    "YOUR_EMAIL": "Votre e-mail",
+    "SUBJECT": "Sujet",
+    "MESSAGE": "Message",
+    "SEND_MESSAGE_BUTTON": "Envoyer le message",
+    "GET_IN_TOUCH": "Entrer en contact",
+    "LOCATION": "Ariana, Tunis",
+    "PHONE": "(216) 90475554",
+    "EMAIL": "mekni.iheb@hotmail.com"
+  }
+}
