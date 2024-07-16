@@ -21,7 +21,7 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
-              "assets/img/iheb-fav.jpg",
+              "src/fav-iheb.jpg",
               "src/assets"
             ],
             "styles": [
@@ -55,8 +55,8 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "5gb",
-                  "maximumError": "10gb"
+                  "maximumWarning": "2mb",
+                  "maximumError": "10mb"
                 },
                 {
                   "type": "anyComponentStyle",
@@ -111,7 +111,7 @@
             ],
             "tsConfig": "tsconfig.spec.json",
             "assets": [
-              "assets/img/iheb-fav.jpg",
+              "src/fav-iheb.jpg",
               "src/assets"
             ],
             "styles": [
