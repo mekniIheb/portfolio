@@ -16,17 +16,15 @@ import {HttpClient, HttpClientModule} from "@angular/common/http";
 import {TranslateLoader, TranslateModule} from "@ngx-translate/core";
 import {HttpLoaderFactory} from "./app.translate-loader";
 import {MatSelectModule} from "@angular/material/select";
-import {MatListModule} from "@angular/material/list";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
-import {MatOption} from "@angular/material/core";
 import {NgOptimizedImage} from "@angular/common";
 import {MatFormFieldModule} from "@angular/material/form-field";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {DropdownModule} from "primeng/dropdown";
 
-import { ScrollToTopComponent } from './scroll-to-top/scroll-to-top.component';
+import {ScrollToTopComponent} from './scroll-to-top/scroll-to-top.component';
 import {LightboxModule} from "ngx-lightbox";
-import { LoaderComponent } from './loader/loader.component';
+import {LoaderComponent} from './loader/loader.component';
 
 
 @NgModule({
@@ -42,28 +40,28 @@ import { LoaderComponent } from './loader/loader.component';
     ScrollToTopComponent,
     LoaderComponent
   ],
-    imports: [
-        LightboxModule,
-        BrowserAnimationsModule,
-        HttpClientModule,
-        NgxTypedJsModule,
-        BrowserModule,
-        AppRoutingModule,
-        TranslateModule.forRoot({
-            loader: {
-                provide: TranslateLoader,
-                useFactory: HttpLoaderFactory,
-                deps: [HttpClient]
-            }
-        }),
-        MatFormFieldModule,
-        MatSelectModule,
-        NgOptimizedImage,
-        FormsModule,
-        DropdownModule,
-        ReactiveFormsModule,
+  imports: [
+    LightboxModule,
+    BrowserAnimationsModule,
+    HttpClientModule,
+    NgxTypedJsModule,
+    BrowserModule,
+    AppRoutingModule,
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient]
+      }
+    }),
+    MatFormFieldModule,
+    MatSelectModule,
+    NgOptimizedImage,
+    FormsModule,
+    DropdownModule,
+    ReactiveFormsModule,
 
-    ],
+  ],
   providers: [TranslateModule],
   bootstrap: [AppComponent], schemas: [
     CUSTOM_ELEMENTS_SCHEMA

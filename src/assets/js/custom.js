@@ -88,22 +88,6 @@
         $('.scrolltop-mf').fadeOut(1000, "easeInOutExpo");
       }
     });
-    var Typed = require('typed.min.js');
-    // Function to initialize Typed.js if an element with the class .text-slider is present
-    function initializeTyped() {
-      var textSlider = document.querySelector('.text-slider');
-      if (textSlider) {
-        var typedStringsElement = document.querySelector('.text-slider-items');
-        var typedStrings = typedStringsElement.textContent;
-        new Typed(textSlider, {
-          strings: typedStrings.split(','),
-          typeSpeed: 80,
-          loop: true,
-          backDelay: 1100,
-          backSpeed: 30
-        });
-      }
-    }
 
     // Testimonials owl
     $('#testimonial-mf').owlCarousel({

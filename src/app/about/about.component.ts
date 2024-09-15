@@ -16,12 +16,12 @@ export class AboutComponent implements OnInit {
   }
   downloadResume() {
     const currentLang = this.translate.currentLang;
-    let filePath = 'assets/pdf/resume-mekni.pdf'; // default to English
+    let filePath = 'assets/pdf/lebenslauf-iheb--.pdf'; // default to English
 
     if (currentLang === 'fr') {
-      filePath = 'assets/pdf/cv-iheb.pdf';
+      filePath = 'assets/pdf/lebenslauf-iheb--.pdf';
     } else if (currentLang === 'de') {
-      filePath = 'assets/pdf/Lebenslauf-iheb-mekni.pdf';
+      filePath = 'assets/pdf/lebenslauf-iheb--.pdf';
     }
 
     this.http.get(filePath, { responseType: 'blob' }).subscribe((blob: Blob) => {

@@ -2,7 +2,7 @@
 .navbar .form-select {
   background-color: transparent;
   border: none;
-  color: white;
+  color: #0078ff;
   font-size: 1rem;
   margin-left: 1rem;
   padding: 0.375rem 1.75rem 0.375rem 0.75rem;
@@ -22,7 +22,7 @@
 /* Style the dropdown items */
 .navbar .form-select option {
   background-color: #343a40; /* Change this to match your navbar background color */
-  color: white;
+  color: rgba(241, 241, 241, 0.78);
 }
 
 /* Optional: Add focus styles */
